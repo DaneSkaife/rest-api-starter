@@ -1,8 +1,8 @@
 pipeline{
 environment {
-registry = "DaneSkaife/rest-api-starter"
+registry = "daneskaife/restapp"
         registryCredentials = "dockerhub_ID"
-        dockerImage = "noderest"
+        dockerImage = ""
     }
     agent any
         stages {
