@@ -2,7 +2,7 @@ pipeline{
 environment {
 registry = "username/restapp"
         registryCredentials = "dockerhub_ID"
-        dockerImage = ""
+        dockerImage = "noderest"
     }
     agent any
         stages {
