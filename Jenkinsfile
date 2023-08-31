@@ -1,6 +1,6 @@
 pipeline{
 environment {
-registry = "username/restapp"
+registry = "DaneSkaife/rest-api-starter"
         registryCredentials = "dockerhub_ID"
         dockerImage = "noderest"
     }
