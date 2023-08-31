@@ -1,7 +1,7 @@
 pipeline{
 environment {
 registry = "username/restapp"
-        registryCredentials = "dockerhub_id"
+        registryCredentials = "dockerhub_ID"
         dockerImage = ""
     }
     agent any
